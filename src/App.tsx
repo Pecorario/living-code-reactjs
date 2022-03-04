@@ -1,9 +1,11 @@
-import LiveCodeScreen from "./pages/LiveCodeScreen";
+import LiveCodeScreen from './pages/LiveCodeScreen';
+import { GlobalStyle } from './styles/global';
 
 function App() {
   return (
     <>
       <LiveCodeScreen />
+      <GlobalStyle />
     </>
   );
 }
