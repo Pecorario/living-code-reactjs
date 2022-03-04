@@ -16,7 +16,7 @@ export const Container = styled.button<ButtonProps>`
   transition: linear 0.2s;
 
   ${props =>
-    props.color === 'primary'
+    props.color === 'secondary'
       ? css`
           color: #fff;
           background: #1f1f1f;
@@ -24,6 +24,7 @@ export const Container = styled.button<ButtonProps>`
           &:hover {
             border: 2px solid #1f1f1f;
             color: #1f1f1f;
+            background: transparent;
           }
         `
       : css`

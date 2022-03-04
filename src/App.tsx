@@ -1,5 +1,5 @@
-import LiveCodeScreen from './pages/LiveCodeScreen';
-import { GlobalStyle } from './styles/global';
+import LiveCodeScreen from '@pages/LiveCodeScreen';
+import { GlobalStyle } from '@styles/global';
 
 function App() {
   return (
